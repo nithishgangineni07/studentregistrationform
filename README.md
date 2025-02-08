@@ -15,7 +15,5 @@ This project is a simple Student Registration System built using JavaScript and 
 
 ## Contributing
 Feel free to fork this repository and submit pull requests to enhance functionality or improve the UI.
-
-## License
-This project is licensed under the MIT License.
+.
 
