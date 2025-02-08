@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+  
+    <title>Student Registration System</title>
+</head>
+<body>
+    <div class="header">
+        <h1>STUDENT REGISTRATION SYSTEM</h1>
+        <p>Manages student records efficiently (ADD EDIT & DELETE)</p>
+        <a href="#records-section">Records</a>
+    </div>
+    
+     <div class="registration-form">
+        <form id="student-form">
+            <div class="form-group">
+                <div id="studentnamediv">
+                 <label for="studentname">Studet Name</label>
+                 <input type="text" id="studentname" name="studentname">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div id="student-iddiv">
+                   <label for="studentid">Student ID</label>
+                   <input type="text" id="studentid" name="studentid">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div id="student-classdiv">
+                   <label for="studentClass">Student Class</label>
+                   <input type="text" id="studentClass" name="studentclass">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div id="student-emaildiv">
+                   <label for="studentemail">Student Email</label>
+                   <input type="email" id="studentemail" name="studentemail">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div id="student-contactdiv">
+                   <label for="studentcontact">Student Contact</label>
+                   <input type="number" id="studentcontact" name="studentcontact">
+                </div>
+            </div>
+
+             <button type="submit" id="submitBtn">ADD Student</button>
+                   
+        </form>
+     </div>
+
+     <!-- Recordssection -->
+
+     <div class="records-section" id="records-section">
+        <h2>STUDENT RECORDS</h2>
+        <table id="record-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Class</th>
+                    <th>Email</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+
+            <tbody id="record-body"></tbody>
+        </table>
+     </div>
+    
+     <script src="dom.js"></script>
+</body>
+</html>
